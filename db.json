@@ -1,0 +1,367 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "restaurant_name": "The Gourmet Kitchen",
+      "category": "Burger",
+      "minimum_price": 20,
+      "estimated_delivery_time": "30-40 mins",
+      "rating": 4.5,
+      "free_delivery": true,
+      "photo": "../images/gourmet-burger.jpg",
+      "isOpen": true,
+      "distance": 8
+    },
+    {
+      "id": "2",
+      "restaurant_name": "Pasta Paradise",
+      "category": "Pasta",
+      "minimum_price": 15,
+      "estimated_delivery_time": "20-30 mins",
+      "rating": 4.7,
+      "free_delivery": false,
+      "photo": "/images/pasta-res.jpg",
+      "isOpen": true,
+      "distance": 3
+    },
+    {
+      "id": "3",
+      "restaurant_name": "Sushi World",
+      "category": "Sushi",
+      "minimum_price": 25,
+      "estimated_delivery_time": "35-45 mins",
+      "rating": 4.6,
+      "free_delivery": true,
+      "photo": "/images/sushi-res.jpg",
+      "isOpen": false,
+      "distance": 2
+    },
+    {
+      "id": "4",
+      "restaurant_name": "Burger Haven",
+      "category": "Burger",
+      "minimum_price": 10,
+      "estimated_delivery_time": "15-25 mins",
+      "rating": 4.3,
+      "free_delivery": false,
+      "photo": "/images/burger-res.jpg",
+      "isOpen": true,
+      "distance": 10
+    },
+    {
+      "id": "5",
+      "restaurant_name": "Pizza Palace",
+      "category": "Pizza",
+      "minimum_price": 50,
+      "estimated_delivery_time": "25-35 mins",
+      "rating": 4.4,
+      "free_delivery": true,
+      "photo": "/images/pizza-res.jpg",
+      "isOpen": false,
+      "distance": 1
+    },
+    {
+      "id": "6",
+      "restaurant_name": "Vegan Delights",
+      "category": "Vegan, Salad",
+      "minimum_price": 22,
+      "estimated_delivery_time": "30-40 mins",
+      "rating": 4.8,
+      "free_delivery": true,
+      "photo": "/images/vegan-res.jpg",
+      "isOpen": true,
+      "distance": 5
+    },
+    {
+      "id": "7",
+      "restaurant_name": "Curry Corner",
+      "category": "Curry",
+      "minimum_price": 20,
+      "estimated_delivery_time": "40-50 mins",
+      "rating": 4.5,
+      "free_delivery": false,
+      "photo": "/images//curry-res.jpg",
+      "isOpen": false,
+      "distance": 2
+    },
+    {
+      "id": "8",
+      "restaurant_name": "Taco Town",
+      "category": "Tacos",
+      "minimum_price": 12,
+      "estimated_delivery_time": "20-30 mins",
+      "rating": 4.2,
+      "free_delivery": true,
+      "photo": "/images/taco-res.jpg",
+      "isOpen": false,
+      "distance": 6
+    },
+    {
+      "id": "9",
+      "restaurant_name": "BBQ Bliss",
+      "category": "BBQ",
+      "description": "Tender ribs with BBQ sauce.",
+      "minimum_price": 25,
+      "estimated_delivery_time": "35-45 mins",
+      "rating": 4.6,
+      "free_delivery": false,
+      "photo": "/images/bbq-res.jpg",
+      "isOpen": true,
+      "distance": 1
+    },
+    {
+      "id": "10",
+      "restaurant_name": "Noodle Nook",
+      "category": "Noodles",
+      "minimum_price": 15,
+      "estimated_delivery_time": "25-35 mins",
+      "rating": 4.4,
+      "free_delivery": true,
+      "photo": "/images/noddle-res.jpg",
+      "isOpen": false,
+      "distance": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Gourmet Burger",
+      "description": "A delicious gourmet burger with premium ingredients.",
+      "category": "Burger",
+      "price": 12.99,
+      "rating": 4.5,
+      "restaurant_name": "The Gourmet Kitchen",
+      "photo": "../images/gourmet-burger.jpg",
+      "restaurant_id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Gourmet Salad",
+      "description": "A fresh and healthy gourmet salad.",
+      "category": "Vegan, Salad",
+      "price": 9.99,
+      "rating": 4.6,
+      "restaurant_name": "The Gourmet Kitchen",
+      "photo": "../images/gourmet-salad.jpg",
+      "restaurant_id": "4"
+    },
+    {
+      "id": "3",
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta with a creamy sauce.",
+      "category": "Pasta",
+      "price": 14.99,
+      "rating": 4.8,
+      "restaurant_name": "Pasta Paradise",
+      "photo": "../images/spaghetti-carbonara.jpg",
+      "restaurant_id": "2"
+    },
+    {
+      "id": "4",
+      "title": "Margherita Pizza",
+      "description": "Traditional Italian pizza with fresh tomatoes and basil.",
+      "category": "Pizza",
+      "price": 11.99,
+      "rating": 4.7,
+      "restaurant_name": "Pasta Paradise",
+      "photo": "../images/margherita-pizza.jpg",
+      "restaurant_id": "2"
+    },
+    {
+      "id": "5",
+      "title": "Sushi Platter",
+      "description": "A variety of fresh sushi rolls.",
+      "category": "Sushi",
+      "price": 19.99,
+      "rating": 4.9,
+      "restaurant_name": "Sushi World",
+      "photo": "../images/sushi-platter.jpg",
+      "restaurant_id": "3"
+    },
+    {
+      "id": "6",
+      "title": "Tempura Shrimp",
+      "description": "Crispy tempura shrimp with dipping sauce.",
+      "category": "Burger",
+      "price": 10.99,
+      "rating": 4.8,
+      "restaurant_name": "Sushi World",
+      "photo": "../images/tempura-shrimp.jpg",
+      "restaurant_id": "3"
+    },
+    {
+      "id": "7",
+      "title": "Cheeseburger",
+      "description": "A classic cheeseburger with all the fixings.",
+      "category": "Burger",
+      "price": 8.99,
+      "rating": 4.3,
+      "restaurant_name": "Burger Haven",
+      "photo": "../images/cheeseburger.jpg",
+      "restaurant_id": "1"
+    },
+    {
+      "id": "8",
+      "title": "Double Bacon Burger",
+      "description": "A double patty burger with crispy bacon.",
+      "category": "Burger",
+      "price": 12.49,
+      "rating": 4.5,
+      "restaurant_name": "Burger Haven",
+      "photo": "../images/double-burger.jpg",
+      "restaurant_id": "4"
+    },
+    {
+      "id": "9",
+      "title": "Pepperoni Pizza",
+      "description": "A pizza topped with pepperoni and cheese.",
+      "category": "Pizza",
+      "price": 13.99,
+      "rating": 4.6,
+      "restaurant_name": "Pizza Palace",
+      "photo": "../images/pepperoni-pizza.jpg",
+      "restaurant_id": "5"
+    },
+    {
+      "id": "10",
+      "title": "BBQ Chicken Pizza",
+      "description": "Pizza with BBQ sauce, chicken, and red onions.",
+      "category": "Pizza",
+      "price": 14.99,
+      "rating": 4.7,
+      "restaurant_name": "Pizza Palace",
+      "photo": "../images/chicken-pizza.jpg",
+      "restaurant_id": "5"
+    },
+    {
+      "id": "11",
+      "title": "Vegan Burger",
+      "description": "A plant-based burger with fresh toppings.",
+      "category": "Vegan, Salad, Burger",
+      "price": 11.99,
+      "rating": 4.8,
+      "restaurant_name": "Vegan Delights",
+      "photo": "../images/vegan-burger.jpg",
+      "restaurant_id": "6"
+    },
+    {
+      "id": "12",
+      "title": "Quinoa Salad",
+      "description": "A healthy quinoa salad with vegetables.",
+      "category": "Vegan, Salad",
+      "price": 9.49,
+      "rating": 4.7,
+      "restaurant_name": "Vegan Delights",
+      "photo": "../images/quinoa-salad.jpg",
+      "restaurant_id": "6"
+    },
+    {
+      "id": "13",
+      "title": "Chicken Tikka Masala",
+      "description": "Chicken in a creamy spiced tomato sauce.",
+      "category": "Curry",
+      "price": 13.99,
+      "rating": 4.6,
+      "restaurant_name": "Curry Corner",
+      "photo": "../images/chicken-tikka-masala.jpg",
+      "restaurant_id": "7"
+    },
+    {
+      "id": "14",
+      "title": "Vegetable Curry",
+      "description": "A variety of vegetables in a rich curry sauce.",
+      "category": "Curry",
+      "price": 11.99,
+      "rating": 4.5,
+      "restaurant_name": "Curry Corner",
+      "photo": "../images/vegetable-curry.jpg",
+      "restaurant_id": "7"
+    },
+    {
+      "id": "15",
+      "title": "Beef Tacos",
+      "description": "Tacos with seasoned beef and fresh toppings.",
+      "category": "Tacos",
+      "price": 9.99,
+      "rating": 4.3,
+      "restaurant_name": "Taco Town",
+      "photo": "../images/beef-tacos.jpg",
+      "restaurant_id": "8"
+    },
+    {
+      "id": "16",
+      "title": "Chicken Tacos",
+      "description": "Tacos with grilled chicken and salsa.",
+      "category": "Tacos",
+      "price": 10.99,
+      "rating": 4.4,
+      "restaurant_name": "Taco Town",
+      "photo": "../images/chicken-tacos.jpg",
+      "restaurant_id": "8"
+    },
+    {
+      "id": "17",
+      "title": "BBQ Ribs",
+      "description": "Tender ribs with BBQ sauce.",
+      "category": "BBQ",
+      "price": 16.99,
+      "rating": 4.7,
+      "restaurant_name": "BBQ Bliss",
+      "photo": "../images/bbq-ribs.jpg",
+      "restaurant_id": "9"
+    },
+    {
+      "id": "18",
+      "title": "Pulled Pork Sandwich",
+      "description": "Pulled pork with coleslaw on a bun.",
+      "category": "Burger",
+      "price": 12.99,
+      "rating": 4.5,
+      "restaurant_name": "BBQ Bliss",
+      "photo": "../images/pork-sandwich.jpg",
+      "restaurant_id": "9"
+    },
+    {
+      "id": "19",
+      "title": "Chicken Lo Mein",
+      "description": "Stir-fried noodles with chicken and vegetables.",
+      "category": "Noodles",
+      "price": 11.99,
+      "rating": 4.4,
+      "restaurant_name": "Noodle Nook",
+      "photo": "../images/chicken-mein.jpg",
+      "restaurant_id": "10"
+    },
+    {
+      "id": "20",
+      "title": "Vegetable Stir Fry",
+      "description": "A mix of vegetables stir-fried with soy sauce.",
+      "category": "Vegan, Salad",
+      "price": 10.99,
+      "rating": 4.3,
+      "restaurant_name": "Noodle Nook",
+      "photo": "../images/vegetable-fry.jpg",
+      "restaurant_id": "10"
+    }
+  ],
+  "cart": [
+    {
+      "id": "b442b399-62d2-440a-9bef-e199ce69478d",
+      "productId": "9",
+      "title": "Pepperoni Pizza",
+      "price": 13.99,
+      "photo": "../images/pepperoni-pizza.jpg",
+      "restaurantName": "Pizza Palace",
+      "amount": 1
+    },
+    {
+      "id": "c0b956f5-345b-467c-bc47-61b705afcec2",
+      "productId": "19",
+      "title": "Chicken Lo Mein",
+      "price": 11.99,
+      "photo": "../images/chicken-mein.jpg",
+      "restaurantName": "Noodle Nook",
+      "amount": 1
+    }
+  ]
+}
